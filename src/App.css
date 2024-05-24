@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+ .MainPage{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #050007;
+  color: #fff;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+  background-color: #050007;
+}
+
+.coin-search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-image: linear-gradient(
+    -225deg,
+    #ac32e4 0%,
+    #7918f2 48%,
+    #4801ff 100%
+  );
+
+  color: #e2e2e2;
+}
+
+.coin-input::placeholder {
+  color: #e2e2e2;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  
+  background-color: #050007;
+  padding: 20px; /* Space inside the header */
+  
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 14px; /* Font size */
+  height: 40px;
+  
+  
+  box-shadow: 0 4px 8px rgba(255, 252, 252, 0.1); /* Subtle shadow for depth */
+  position: fixed; /* Fixed at the top */
+  top: 0; /* Align at the very top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.lefth{
+  font-size: xx-small;
+  color: #fff;
+  
+
+  
+}
+
+.midh{
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #e2e2e2;;
+  font: bold;
+  margin-right: 50px;
+  padding: 6px;
+  
+  
+
+  text-decoration: none;
+  
+}
+
+.midh:hover {
+  color: aqua;
+  border-color: blueviolet;
+}
+
+.righth{
+  font-size: x-small;
+  margin-left: 0x;
+  padding-left: 0px;
+ 
+
+
+  
+}
+
+.login {
+ position: absolute;
+ right: 8%;
+ top: 20%;
+}
+
+.balance {
+  margin-top: 100px;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ justify-items: center;
+ align-items: center;
+}
+
+.balanceimg {
+  height: 150px;
+  width: 150px;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(204, 206, 85, 0.737)) drop-shadow(0 0 10px rgba(227, 218, 83, 0.6)) drop-shadow(0 0 15px rgba(237, 215, 91, 0.8));
+  }
+  100% {
+    filter: drop-shadow(0 0 10px rgb(229, 227, 99)) drop-shadow(0 0 5px rgba(124, 10, 199, 1)) drop-shadow(0 0 10px rgb(237, 230, 98));
+  }
+}
+
+.balancenum {
+
+  font-size: xx-large;
+}
+
+.balanceimg2 {
+
+  height: 80px;
+ 
+  
+  
+}
+
+.img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 200px;
+  font-size: xx-large;
+}
+
+
+.img3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 200px;
+  font-size: xx-large;
+}
+
+
+
+.balanceimg3 {
+
+  height: 80px;
+ 
+  
+  
+}
+
+
+.img4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 200px;
+  font-size: xx-large;
+}
+
+
+
+.balanceimg4 {
+
+  height: 80px;
+ 
+  
+  
+}
+
+
+.dropdown-arrow {
+  
+   
+  font-size: 10px; 
+  color: #ffffff; 
+}
+
+
+
+.buysellbuttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 16px;
+  
+}
+
+.buy-button {
+
+  background-color: #5C65D6;
+  margin-bottom: 4px;
+  height: 36px;
+  width: 100px;
+  color: #ffffff;
+  font: bold;
+
+  
+
+}
+
+.sell-button {
+
+height: 36px;
+  background-color: #21AD64;
+  color: #ffffff;
+  font: bold;
+
+}
+
+.absolute-p {
+  
+width: 300px;
+height: 50px;
+  position: absolute;
+  top: 28%; /* Adjust as needed */
+  left: 20%; /* Adjust as needed */
+  right: 80%;
+  
+  padding: 10px;
+}
+
+
+.footermain {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  
+ 
+  height: 60px;
+  width: 100%;
+  margin-top: 100px;
+  background-color:#000000;
+  bottom: 0;
+  z-index: 2000;
+}
+
+.footer2 {
+  font-size:x-large;
+margin-left: 20px;
+
+ 
+  
+}
+
+.github {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+.linkedin {
+  margin-top: 6px;
+  margin-left: 6px;
+  height: 40px;
+  width: 40px;
+
+}
+
+.email {
+  margin-right: 20px;
+}

@@ -1,0 +1,128 @@
+
+.creditpagebody {
+  
+}
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #7c0ac7;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+  }
+  
+  .credit-card-form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(23, 17, 218, 0.954);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+   
+  }
+  
+  .form-input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+.wallet {
+
+  
+
+}
+
+  .walletcontainer {
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: #7c0ac7;
+    margin-bottom: 0cm;
+    padding-bottom: 0px;
+    
+}
+
+
+.wallettxt {
+ 
+  font-size: 26px; /* Larger font size */
+  color: #ccc;
+  enable-background: accumulate;
+  
+  margin-right: 10px;
+  text-align: center; /* Centers text horizontally */
+  background: linear-gradient(90deg, #d90404, #03b011, #014dc6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: gradient-animation 3s linear infinite;
+}
+
+
+.walletpic {
+  margin-top: 20px;
+    width: 128px; /* Making the image twice as big (assuming the original size is 64px) */
+    height: auto;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
+
+.wallettxtbg {
+  display: inline-flex;
+  justify-content: center;
+  padding: 6px;
+  background: white;
+  border: 2px solid #f9f9f9; /* Add border */
+  border-radius: 4px;
+  margin-top: 120px; /* Change padding-top to margin-top */
+}
