@@ -20,6 +20,12 @@ function App() {
         Component = CreditCardForm
         break
 
+        default:
+       Component = CryptoDisplay
+      break
+  
+   
+
 
   }
   return (
